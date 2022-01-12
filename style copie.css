@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  cursor: none;
+  width: 3024px;
+  height: 100vh;
+}
+
+.items {
+  cursor: none;
+  background-color: black;
+  height: 100vh;
+  border: 1px solid red;
+  transform-origin: left;
+  transition: all 0.3s ease-out;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.cursor {
+  cursor: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid;
+  z-index: 9999;
+  transform: translate(10px 10px);
+  transition: all 0.03s linear;
+}
+
+/* .cursor::before {
+
+} */
+
+.pushMouse {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.background {
+  position: absolute;
+  background-image: url(HP/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+  width: 3024px;
+  height: 472px;
+}
+
+button {
+  position: absolute;
+  top: 20vh;
+}
